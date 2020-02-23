@@ -52,6 +52,7 @@ clearResult = () => {
 
     return (
       <div className="App">
+        <h1>Привет, ГИТХАБ!</h1>
         <input type='text' placeholder='first' value={this.state.numberFist} onChange={this.handleFirstInput}/>
         <input type='text' placeholder='event' value={this.state.ev} onChange={this.handleEventInput}/>
         <input type='text' placeholder='second' value={this.state.numberSecond} onChange={this.handleSecondInput}/>

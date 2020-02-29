@@ -1,8 +1,5 @@
 .App {
-  text-align: center;
-  font-size: 150pt;
-  font-weight: 700;
-  text-transform: uppercase;
+
 
 }
 
@@ -39,8 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-p {
-  font-size: 30px;
-  color: rebeccapurple;
 }

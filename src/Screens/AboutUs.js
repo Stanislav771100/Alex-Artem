@@ -13,7 +13,19 @@ class AboutUs extends Component {
 
     return (
       <div className="AboutUs">
-
+          <div className="info-container">
+            <div className="info-text"> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem voluptates, facilis itaque eos atque quibusdam qui repellendus repellat magni quis, amet natus adipisci nemo architecto harum reiciendis possimus totam?</p>
+            </div>
+            <div className="info-image">
+            <img src={require('./img/1.png')}/>
+            </div>
+          </div>
+          <div className="button">
+            <input type="text" className="input-text"></input>
+            <input type="button" value="sumbit" className="button">
+            </input>
+          </div>
       </div>
     );
   }

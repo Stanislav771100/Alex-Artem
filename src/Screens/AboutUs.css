@@ -15,7 +15,7 @@
 .info-text{
     width: 50%;
     height: 500px;
-    color: royalblue;
+    color: white;
 }
 
 .info-image{
@@ -31,4 +31,16 @@
 .button{
     display: flex;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-content{
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.sumbit{
+    width: 300px;
 }

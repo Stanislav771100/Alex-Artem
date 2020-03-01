@@ -22,8 +22,11 @@ class AboutUs extends Component {
             </div>
           </div>
           <div className="button">
-            <input type="text" className="input-text"></input>
-            <input type="button" value="sumbit" className="button">
+            <input type="text" className="input-content"></input>
+            <input type="text" className="input-content"></input>
+            <input type="text" className="input-content"></input>
+            <input type="text" className="input-content"></input>
+            <input type="button" value="sumbit" className="sumbit">
             </input>
           </div>
       </div>

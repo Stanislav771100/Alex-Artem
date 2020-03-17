@@ -47,6 +47,16 @@
   color: rgb(185, 185, 185);
 }
 
-.p :hover{
+p:hover{
     cursor: pointer;
+}
+@media (max-width: 1500px) {
+    p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 700px) {
+    p {
+        font-size: 10px;
+    }
 }

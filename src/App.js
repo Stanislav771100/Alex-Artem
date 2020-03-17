@@ -6,6 +6,7 @@ import Hr from './Screens/components/HrLine';
 import AboutUs from './Screens/AboutUs/AboutUs';
 import Home from './Screens/Home/Home';
 import Contacts from './Screens/Contacts/Contacts';
+import Footer from './Screens/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <AboutUs />
       <Hr />
       <Contacts />
+      <Hr />
+      <Footer />
     </div>
   );
 }

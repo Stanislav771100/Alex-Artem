@@ -7,6 +7,7 @@ import AboutUs from './Screens/AboutUs/AboutUs';
 import Home from './Screens/Home/Home';
 import Contacts from './Screens/Contacts/Contacts';
 import Footer from './Screens/Footer/Footer';
+import HWArtem from './Screens/HWArtem/HWArtem';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Contacts />
       <Hr />
       <Footer />
+      <HWArtem />
     </div>
   );
 }

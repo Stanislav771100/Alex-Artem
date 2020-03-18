@@ -7,6 +7,7 @@ import AboutUs from './Screens/AboutUs/AboutUs';
 import Home from './Screens/Home/Home';
 import Contacts from './Screens/Contacts/Contacts';
 import Footer from './Screens/Footer/Footer';
+import HWlosha from './Screens/HWlosha/HWlosha';
 import HWArtem from './Screens/HWArtem/HWArtem';
 
 
@@ -24,6 +25,9 @@ function App() {
       <Contacts />
       <Hr />
       <Footer />
+      <Hr />
+      <HWlosha />
+       <Hr />
       <HWArtem />
     </div>
   );

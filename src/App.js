@@ -9,6 +9,7 @@ import Contacts from './Screens/Contacts/Contacts';
 import Footer from './Screens/Footer/Footer';
 import HWlosha from './Screens/HWlosha/HWlosha';
 import HWArtem from './Screens/HWArtem/HWArtem';
+import ArrArtem from './Screens/ArrArtem/ArrArtem';
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
       <HWlosha />
        <Hr />
       <HWArtem />
+      <Hr />
+      <ArrArtem />
     </div>
   );
 }

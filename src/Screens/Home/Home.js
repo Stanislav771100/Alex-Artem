@@ -8,6 +8,14 @@ class Home extends Component {
     this.state = {
     }
   }
+  componentDidMount(){
+    this.mathFunc()
+  }
+  mathFunc() {
+    const arr = [1, 4, 3, 7, 9]
+    for (let i = 0; i < arr.length; i++){
+      console.log(arr[i])
+    }}
 
   
   render() {

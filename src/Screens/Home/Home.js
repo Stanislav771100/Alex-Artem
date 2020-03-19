@@ -8,12 +8,13 @@ class Home extends Component {
     this.state = {
     }
   }
- 
+
   
   render() {
     const arr = ['yellow', 'red', 'blue', 'green', 'aqua', 'grey']
     const arrSide = ['front', 'right', 'back', 'left', 'top', 'bottom']
     return (
+      
       <div className="container">
       <div
         style={{

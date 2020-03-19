@@ -13,7 +13,7 @@ class HWlosha extends Component {
         <div className="Photo">
           <img src={require("../../img/Subnautica.jpg")}></img>
         </div>
-        <di className="second-block"><div className="Text">
+        <div className="second-block"><div className="Text">
           <h1>The help you need to succeed </h1>
           <p>
             From your first steps with Unreal Engine to completing your most
@@ -29,7 +29,7 @@ class HWlosha extends Component {
             className="but-input"
             type="button"
           ></input>
-        </div></di>
+        </div></div>
         
       </div>
     );

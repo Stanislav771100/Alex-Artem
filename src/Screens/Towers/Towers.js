@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Home.css';
+import './Towers.css';
 
-class Home extends Component {
+class Towers extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -10,10 +10,10 @@ class Home extends Component {
   }
   render() {
     return (
-    <div className="container">
+    <div className="towers">
     </div>
     );
   }
 }
 
-export default Home;
+export default Towers;

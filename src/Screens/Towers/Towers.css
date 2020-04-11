@@ -4,8 +4,8 @@
 }
 
 .towers{
-    height: 350px;
-    width: 350px;
+    height: 230px;
+    width: 230px;
     background-color: rgb(201, 73, 73);
     display: flex;
     align-items: center;  
@@ -15,9 +15,10 @@
 }
 
 .towers-img{
+    margin: 10px 0 10px 0;
     border-radius: 50%;
-    height: 160px;
-    width: 160px;
+    height: 100px;
+    width: 100px;
     background-color: rgb(177, 168, 231);
     display: flex;
     align-items: center;
@@ -25,8 +26,8 @@
 }
 
 .towers-img img{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 .towers-text{
     text-align: center;

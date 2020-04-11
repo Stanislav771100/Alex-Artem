@@ -30,7 +30,7 @@ class Monsters extends Component {
       <div className='monsters-item'>
       <div className='monsters-picture'><img alt="archer" src={archer}/></div> 
       <div className='monsters-text' >
-        <h1>Elf</h1>
+        <h2>Elf</h2>
         <p> hp {this.state.elf.hp} </p>
         <p> goldAfterDeath {this.state.elf.goldAfterDeath}</p>
         </div>
@@ -43,7 +43,7 @@ class Monsters extends Component {
            </div> 
           </div>
         <div className='monsters-text' >
-        <h1>Spaider</h1>
+        <h2>Spaider</h2>
         <p> hp {this.state.spaider.hp} </p>
         <p> goldAfterDeath {this.state.spaider.goldAfterDeath}</p>
         </div>
@@ -52,7 +52,7 @@ class Monsters extends Component {
         <div className='monsters-item'>
        <div className='monsters-picture'><img alt="wasp" src={wasp}/></div> 
         <div className='monsters-text' >
-        <h1>Wasp</h1>
+        <h2>Wasp</h2>
         <p>hp {this.state.wasp.hp} </p>
         <p> goldAfterDeath{this.state.wasp.goldAfterDeath}</p>
         </div>

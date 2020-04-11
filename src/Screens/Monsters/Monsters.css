@@ -2,4 +2,33 @@
     width: 100%;
     height: 1000px;
     background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+}
+
+.monsters-text :hover{
+    cursor: pointer;
+}
+.monsters-text{
+    width: 200px;
+    height: 200px;  
+    text-align: center;
+    color: seashell;
+   
+}
+ 
+.monsters-item{
+    width: 500px;
+    height: 500px;
+    background-color: indigo;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.monsters-picture img{
+    width: 250px;
+    height: 250px;
 }

@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 import Monsters from '../Monsters/Monstres'
 import Towers from '../Towers/Towers'
-// import earthImg from "../../img/earth_tower.png";
-// import earth2Img from "../../img/earth_tower2.png";
-// import flyTowerImg from "../../img/flyTower.png";
+import InterContain from '../InterContain/InterContain'
 
 class Home extends Component {
   constructor(props) {
@@ -58,6 +56,7 @@ class Home extends Component {
     <div className="container">
       <Towers towers={tower} />
       <Monsters monsters={monster}/>
+      <InterContain />
     </div>
     );
   }

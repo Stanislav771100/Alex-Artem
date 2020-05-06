@@ -4,16 +4,16 @@ class Towers extends Component {
   constructor(props) {
     super(props);
     this.state = {
-     
+
     };
   }
   render() {
     const { towers } = this.props
-    console.log(this.props)
+
     return (
       <div className="statastika">
         {towers.map(item => {
-          console.log(item.img)
+
           return (
 
         <div key={item} className="towers">

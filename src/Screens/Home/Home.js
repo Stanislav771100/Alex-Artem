@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './Home.css';
 import Monsters from '../Monsters/Monstres'
 import Towers from '../Towers/Towers'
-import earthImg from "../../img/earth_tower.png";
-import earth2Img from "../../img/earth_tower2.png";
-import flyTowerImg from "../../img/flyTower.png";
+// import earthImg from "../../img/earth_tower.png";
+// import earth2Img from "../../img/earth_tower2.png";
+// import flyTowerImg from "../../img/flyTower.png";
 
 class Home extends Component {
   constructor(props) {
@@ -52,10 +52,12 @@ class Home extends Component {
     }
   }
   render() {
+    const { monster, tower } = this.state
+
     return (
     <div className="container">
-      <Towers towers={this.state.tower} />
-      {/* <Monsters monsters={this.state.monster}/> */}
+      <Towers towers={tower} />
+      <Monsters monsters={monster}/>
     </div>
     );
   }

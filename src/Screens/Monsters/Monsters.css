@@ -1,6 +1,7 @@
 .monsters {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .monsters-text :hover{

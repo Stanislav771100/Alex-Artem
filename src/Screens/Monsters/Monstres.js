@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import "./Monsters.css";
-import spider from "../../img/spider.png";
-import archer from "../../img/archer.png";
-import waspImg from "../../img/wasp.png";
 
 class Monsters extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      show: false
+    };
+  }
+  handleColor() {
+    this.setState({show: !this.state.show})
   }
   render() {
     const { monsters } = this.props;
@@ -15,12 +17,12 @@ class Monsters extends Component {
       <div className="monsters">
         {monsters.map(item => {
           return (
-            <div key={item} className="monsters-item">
+            <div key={item} onClick={() => this.handleColor()} className={this.state.show ? "monsters-item-active" : 'monsters-item'}>
               <div className="monsters-picture">
-                <img alt="archer" src={archer} />
+                <p>{item.img}</p>
               </div>
               <div className="monsters-text">
-                <h2>Elf</h2>
+                <h2>{item.name}</h2>
                 <p> hp {item.hp} </p>
                 <p> goldAfterDeath {item.goldAfterDeath}</p>
               </div>

@@ -17,3 +17,6 @@
 .mainHeart p {
     font-size: 30px;
     }
+.active {
+    color: black;
+}

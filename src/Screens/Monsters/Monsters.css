@@ -27,8 +27,23 @@ h2 {
     align-items: center;
     flex-direction: column;
 }
+.monsters-item-active {
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-.monsters-picture img{
-    width: 60px;
-    height: 60px;
+.monsters-picture {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }

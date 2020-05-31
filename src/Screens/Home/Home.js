@@ -12,39 +12,42 @@ class Home extends Component {
         {
         hp : 100,
         goldAfterDeath : 15,
-        name : 'elf'
+        name : 'elf',
+        img: '🏹'
        },
        {
         hp : 200,
         goldAfterDeath : 25,
         name : 'spider',
+        img: '🕷️'
        },
       {
         hp : 50,
         goldAfterDeath : 10,
-        name : 'wasp'
+        name : 'wasp',
+        img: '🐝'
        },
       ],
       tower: [
         {
           dm: 75,
           cost: 75,
-          name: 'earthTower',
-          img: `{require('../../img/earth_tower.png')}`
+          name: 'Cannon',
+          img: '🗼'
         },
   
         {
           dm : 100,
           cost : 200,
-          name : 'earthTower2',
-          img: `{require('../../img/earth_tower2.png')}`
+          name : 'Earth Tower',
+          img: '💣'
         },
   
         {
           dm : 50,
           cost : 100,
-          name : 'flyTower',
-          img: `{require('../../img/flyTower.png')}`
+          name : 'Sky Tower',
+          img: '🚀'
         },
       ]
     }

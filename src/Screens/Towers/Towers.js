@@ -4,7 +4,6 @@ class Towers extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
     };
   }
   render() {
@@ -19,7 +18,7 @@ class Towers extends Component {
         <div key={item} className="towers">
 
             <div className="towers-img">
-              <img alt="earth_tower" src={item.img} />
+              <p>{item.img}</p>
             </div>
             
             <div className="towers-text">

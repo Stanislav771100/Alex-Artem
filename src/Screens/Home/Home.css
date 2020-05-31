@@ -4,3 +4,7 @@
     background-color: cadetblue;
     justify-content: space-between;
 }
+.left-bar {
+    display: flex;
+    flex-direction: column;
+}

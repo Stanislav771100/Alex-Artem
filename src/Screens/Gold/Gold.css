@@ -1,0 +1,9 @@
+.gold-container {
+    width: 230px;
+    height: 230px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

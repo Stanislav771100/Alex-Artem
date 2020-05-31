@@ -3,6 +3,7 @@ import './Home.css';
 import Monsters from '../Monsters/Monstres'
 import Towers from '../Towers/Towers'
 import InterContain from '../InterContain/InterContain'
+import Gold from '../Gold/Gold';
 
 class Home extends Component {
   constructor(props) {
@@ -57,7 +58,10 @@ class Home extends Component {
 
     return (
     <div className="container">
+      <div className="left-bar">
       <Towers towers={tower} />
+      <Gold />
+      </div>
       <Monsters monsters={monster}/>
       <InterContain />
     </div>

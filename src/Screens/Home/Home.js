@@ -50,26 +50,55 @@ class Home extends Component {
           name: "Sky Tower",
           img: "🚀"
         }
-      ]
+      ],
+      username: "",
+      email: "",
+      password: "",
+      showModal: true
     };
   }
+  closeModal() {
+    this.setState({ showModal: false });
+  }
   render() {
-    const { monster, tower } = this.state;
+    const { monster, tower, showModal } = this.state;
 
     return (
       <div className="container">
-        <div className="modal">
-          <input placeholder='username' type="text" className="formRegister" />
-          <input placeholder='email' type='email' className="formRegister" />
-          <input placeholder='password' type="password" className="formRegister" />
-          <div className="button">accept</div>
-        </div>
-        {/* <div className="left-bar">
-      <Towers towers={tower} />
-      <Gold />
-      </div>
-      <Monsters monsters={monster}/>
-      <InterContain /> */}
+        {(showModal && (
+          <div className="modal">
+            <input
+              onChange={e => this.setState({ username: e.target.value })}
+              placeholder="username"
+              type="text"
+              className="formRegister"
+            />
+            <input
+              onChange={e => this.setState({ email: e.target.value })}
+              placeholder="email"
+              type="email"
+              className="formRegister"
+            />
+            <input
+              onChange={e => this.setState({ password: e.target.value })}
+              placeholder="password"
+              type="password"
+              className="formRegister"
+            />
+            <div onClick={() => this.closeModal()} className="button">
+              accept
+            </div>
+          </div>
+        )) || (
+          <>
+            <div className="left-bar">
+              <Towers towers={tower} />
+              <Gold />
+            </div>
+            <Monsters monsters={monster} />
+            <InterContain />
+          </>
+        )}
       </div>
     );
   }

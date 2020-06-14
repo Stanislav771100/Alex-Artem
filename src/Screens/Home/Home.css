@@ -8,3 +8,30 @@
     display: flex;
     flex-direction: column;
 }
+.modal {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+.formRegister {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    background-color: rgb(219, 219, 219);
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    cursor: pointer;
+}

@@ -12,8 +12,6 @@ class InterContain extends Component {
     }
   }
   render() {
-    const { monster, tower } = this.state
-
     return (
     <div className="mainCont">
         <Counter />

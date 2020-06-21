@@ -54,7 +54,7 @@ class Home extends Component {
       username: "",
       email: "",
       password: "",
-      showModal: true
+      showModal: true,
     };
   }
   closeModal() {

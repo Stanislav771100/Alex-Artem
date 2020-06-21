@@ -12,7 +12,7 @@ class Gold extends Component {
   }
   plusGold(variables) {
     const { gold } = this.state
-    if (variables == 'mnoj') {
+    if (variables === 'mnoj') {
       this.setState({gold: gold * 5})
     } else
 
@@ -21,14 +21,14 @@ class Gold extends Component {
   setGold(variable){
     const { goldInput, gold } = this.state
     let plusGold = parseInt(goldInput)
-    if (variable == 'Plus') {
+    if (variable === 'Plus') {
       this.setState({gold: gold + plusGold})
-    } else if ( variable == 'Minus') { 
+    } else if ( variable === 'Minus') { 
       this.setState({gold: gold - plusGold})
     }
   }
   render() {
-    const { gold, goldInput } = this.state
+    const { gold } = this.state
     return (
     <div className="gold-container">
       <GrMoney onClick={() => this.plusGold('mnoj')} style={{height: 50, width: 50}} />

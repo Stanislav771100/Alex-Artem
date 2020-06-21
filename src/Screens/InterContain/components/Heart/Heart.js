@@ -14,13 +14,13 @@ class Heart extends Component {
   }
   counterHeart(variables) {
     const { heartStart, rotateCounter, heartSize } = this.state;
-    if (variables == "plus" && heartStart < 20) {
+    if (variables === "plus" && heartStart < 20) {
       this.setState({
         heartStart: heartStart + 1,
         rotateCounter: rotateCounter + 10,
         heartSize: heartSize - 5
       });
-    } else if (variables == "minus" && heartStart > 0) {
+    } else if (variables === "minus" && heartStart > 0) {
       this.setState({
         heartStart: heartStart - 1,
         rotateCounter: rotateCounter - 10,
@@ -45,7 +45,8 @@ class Heart extends Component {
         />
         <p
           onClick={() => this.counterHeart("minus")}
-          className={heartStart == 20 ? "active" : ""}
+          className={heartStart === 20 && "active"}
+
         >
           {heartStart} / {heartAnd}
         </p>

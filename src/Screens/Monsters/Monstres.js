@@ -5,14 +5,15 @@ class Monsters extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      show: false
+      show: false,
     };
   }
   handleColor() {
     this.setState({show: !this.state.show})
   }
   render() {
-    const { monsters } = this.props;
+    const { monsters} = this.props;
+
     return (
       <div className="monsters">
         {monsters.map(item => {
